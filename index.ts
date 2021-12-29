@@ -1,4 +1,6 @@
 import DiscordJS, { Intents } from 'discord.js'
+import WOKCommands from 'wokcommands'
+import path from 'path'
 import dotenv from "dotenv"
 dotenv.config()
 
@@ -11,12 +13,17 @@ const client = new DiscordJS.Client({
 
 client.on('ready', () => {
     console.log('Rapaaz')
+
+    new WOKCommands(client, {
+        commandsDir: path.join(__dirname, 'commands'),
+        typeScript: true
+    })
 })
 
 client.on('messageCreate', (message) => {
-    if(message.content === 'ratinho') {
+    if(message.content === 'merda') {
         message.reply({
-            content: 'rapaiz',
+            content: 'https://desvendandosonhos.com/wp-content/uploads/2018/10/Sonhar-Com-Fezes.jpg',
         })
     }
 })
