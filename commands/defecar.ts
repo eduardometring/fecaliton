@@ -47,7 +47,7 @@ export default {
         newEmbed.setTimestamp()
 
         newMessage.edit({
-            embeds: [newEmbed],
+            embeds: [newEmbed]
         })
     }
 } as ICommand
