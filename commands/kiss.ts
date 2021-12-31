@@ -5,10 +5,10 @@ export default {
     category: 'Diversão',
     description: 'Beija o usuário mencionado',
 
-    callback: async ({message}) => {
+    callback: async ({message, args}) => {
         const embed = new MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Você precisa mencionar o usuário que você quer beijar, imbecil <a:facepalmz:856959236018143252>')
+        .setTitle('Você precisa me dizer quem você deseja beijar, imbecil <a:facepalmz:856959236018143252>')
         const list = [
             'https://imgur.com/iclUiUN.gif',
             'https://imgur.com/lYQt9rx.gif',
@@ -25,14 +25,20 @@ export default {
         ]
 
         const rand = list[Math.floor(Math.random() * list.length)]
-        const user = message.mentions.users.first()
+        const user = message.mentions.users.first() || args.join(" ")
 
         if(!user) {
             await message.reply ({
             embeds: [embed]
             })
-        } else if(user.id == '710530907370684526') {
-            await message.reply(`Eu não quero te beijar! O Faustão vai botar esse seu cuzinho aí pra sentar na pika!`)
+        } else if(user == '710530907370684526') {
+            const amogus = [
+                '! O Faustão vai botar esse seu cuzinho aí pra sentar na pika!',
+                '! Você sabe quantos anos eu tenho? O que você faria se eu fosse uma criança? Pedófilo de merda',
+                ', animal',
+            ]
+            const haha = amogus[Math.floor(Math.random() * amogus.length)]
+            await message.reply(`Eu não quero te beijar ${haha}`)
         }else {const description = [
             'O amor está no ar...',
             `Para um exemplo de imbecil, meus parabéns! ${message.author}, você acaba de contrair herpes! (laugh at this user <a:trollfast:854095574474948648>)`,
