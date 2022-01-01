@@ -4,6 +4,7 @@ import { ICommand } from "wokcommands";
 export default {
     category: 'Diversão',
     description: 'Beija o usuário mencionado',
+    aliases: ['k', 'kissing'],
 
     callback: async ({message, args}) => {
         const embed = new MessageEmbed()
