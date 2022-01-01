@@ -17,7 +17,9 @@ client.on('ready', () => {
     new WOKCommands(client, {
         commandsDir: path.join(__dirname, 'commands'),
         typeScript: true
+        
     })
+       .setDefaultPrefix('f!')
 })
 
 client.on('messageCreate', (message) => {
