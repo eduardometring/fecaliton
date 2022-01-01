@@ -5,8 +5,8 @@ export default {
     category: 'Diversão',
     description: 'Veja o tamanho do pênis de seus amigos!',
 
-    callback: async ({message}) => {
-        const user = message.mentions.users.first()
+    callback: async ({message, args}) => {
+        const user = message.mentions.users.first() || args.join(" ")
         if(!user) {
         const embed = new MessageEmbed()
         .setDescription(`**Seu pênis** \n8` + "=".repeat(Math.floor(Math.random() * 25)) + "D")
