@@ -4,6 +4,7 @@ import { ICommand } from "wokcommands";
 export default {
     category: 'Diversão',
     description: 'Envia imagens de aleatórias de fezes',
+    aliases: ['defecar', 'shit', 'cagar'],
 
     callback: async ({message}) => {
         const fezes =  [
