@@ -4,6 +4,7 @@ import { ICommand } from "wokcommands";
 export default {
     category: 'Moderação',
     description: 'Expulse membros do seu servidor',
+    aliases: ['expulsar'],
 
     permissions: ['KICK_MEMBERS'],
 
