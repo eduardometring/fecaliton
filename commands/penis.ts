@@ -4,6 +4,7 @@ import { ICommand } from "wokcommands";
 export default {
     category: 'Diversão',
     description: 'Veja o tamanho do pênis de seus amigos!',
+    aliases: ['pp'],
 
     callback: async ({message, args}) => {
         const user = message.mentions.users.first() || args.join(" ")
