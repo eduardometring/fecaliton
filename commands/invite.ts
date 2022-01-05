@@ -7,7 +7,7 @@ export default {
 
     callback: async ({message}) => {
         const embed = new MessageEmbed()
-        .setColor('DARK_BLUE')
+        .setColor('#000080')
         .setDescription('**teste👍**')
 
         await message.reply({ 
