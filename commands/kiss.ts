@@ -7,6 +7,7 @@ export default {
     aliases: ['k', 'kissing'],
 
     callback: async ({message, args}) => {
+        const avatar = message.author.displayAvatarURL({format: "png"})
         const embed = new MessageEmbed()
         .setColor('RANDOM')
         .setTitle('Você precisa me dizer quem você deseja beijar, imbecil <a:facepalmz:856959236018143252>')
