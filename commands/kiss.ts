@@ -52,6 +52,7 @@ export default {
         .setColor('RED')
         .setTimestamp()
         .setImage(rand)
+        .setFooter(message.author.tag, avatar)
 
         await message.reply ({
             embeds: [kiss]
