@@ -14,8 +14,8 @@ export default {
             'https://cdn.discordapp.com/attachments/836279613818142740/926083857386709002/iu.png',
             'https://cdn.discordapp.com/attachments/836279613818142740/926084292705136720/unknown.png',
             'https://cdn.discordapp.com/attachments/836279613818142740/926084607873531984/iu.png',
-            'https://cdn.discordapp.com/attachments/836279613818142740/926084902326272020/unknown.png',
-            'https://cdn.discordapp.com/attachments/836279613818142740/926085080756133969/unknown.png',
+            /*'https://cdn.discordapp.com/attachments/836279613818142740/926084902326272020/unknown.png',
+            'https://cdn.discordapp.com/attachments/836279613818142740/926085080756133969/unknown.png',*/
             'https://cdn.discordapp.com/attachments/836279613818142740/926087958304555038/iu.png'
 
 
@@ -33,7 +33,7 @@ export default {
 
         const embed = new MessageEmbed()
             .setColor('RANDOM')
-            .setTitle('Defecando...')
+            .setTitle('Shitting...')
             .setImage(cagando)
 
     const newMessage = await message.reply({
@@ -43,7 +43,7 @@ export default {
         await new Promise((resolve)  => setTimeout(resolve, 3000))
 
         const newEmbed = newMessage.embeds[0]
-        newEmbed.setTitle('Pronto! Sua shit foi defecada successfully')
+        newEmbed.setTitle('now just eat it')
         newEmbed.setImage(random)
         newEmbed.setTimestamp()
 
