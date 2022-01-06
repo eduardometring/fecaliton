@@ -9,10 +9,10 @@ export default {
     callback: async ({message, args}) => {
         const embed = new MessageEmbed()
         .setColor('RANDOM')
-        .setThumbnail(message.author.displayAvatarURL({format: "png"}))
+        .setThumbnail('https://cdn.discordapp.com/attachments/718179333222432768/928700492744376340/Untitled5_20220106142236.png')
         .setAuthor('f!hug')
         .setTitle('Como usa essa porra me ajuda por favor')
-        .setDescription('a imagem nao vai ser isso eu to testando porra')
+        .setDescription('kkkkkk ta funsionano caraio kajskjskajskajsakjsakjsakjsakjsakjsakjsajsakjskjsakjska')
         const list = [
             'https://i.imgur.com/r9aU2xv.gif',
             'https://i.imgur.com/wOmoeF8.gif',
