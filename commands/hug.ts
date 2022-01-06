@@ -11,6 +11,7 @@ export default {
         .setColor('RANDOM')
         .setThumbnail(message.author.displayAvatarURL({format: "png"}))
         .setTitle('HAHAH BUCETA')
+        .setDescription('a imagem nao vai ser isso eu to testando porra')
         const list = [
             'https://imgur.com/iclUiUN.gif',
             'https://imgur.com/lYQt9rx.gif',
