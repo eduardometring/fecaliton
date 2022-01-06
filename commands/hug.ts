@@ -9,7 +9,8 @@ export default {
     callback: async ({message, args}) => {
         const embed = new MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Você precisa me dizer quem você deseja beijar, imbecil <a:facepalmz:856959236018143252>')
+        .setThumbnail('https://tenor.com/view/hugs-sending-virtual-hugs-loading-gif-8158818')
+        .setTitle('HAHAH BUCETA')
         const list = [
             'https://imgur.com/iclUiUN.gif',
             'https://imgur.com/lYQt9rx.gif',
