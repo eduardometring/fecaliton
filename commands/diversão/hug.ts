@@ -10,7 +10,8 @@ export default {
         const embed = new MessageEmbed()
         .setColor('RANDOM')
         .setThumbnail(message.author.displayAvatarURL({format: "png"}))
-        .setTitle('HAHAH BUCETA')
+        .setAuthor('f!hug')
+        .setTitle('Como usa essa porra me ajuda por favor')
         .setDescription('a imagem nao vai ser isso eu to testando porra')
         const list = [
             'https://i.imgur.com/r9aU2xv.gif',
