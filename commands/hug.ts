@@ -9,7 +9,7 @@ export default {
     callback: async ({message, args}) => {
         const embed = new MessageEmbed()
         .setColor('RANDOM')
-        .setThumbnail('https://tenor.com/view/hugs-sending-virtual-hugs-loading-gif-8158818')
+        .setThumbnail(message.author.displayAvatarURL({format: "png"}))
         .setTitle('HAHAH BUCETA')
         const list = [
             'https://imgur.com/iclUiUN.gif',
