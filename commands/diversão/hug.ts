@@ -13,18 +13,14 @@ export default {
         .setTitle('HAHAH BUCETA')
         .setDescription('a imagem nao vai ser isso eu to testando porra')
         const list = [
-            'https://imgur.com/iclUiUN.gif',
-            'https://imgur.com/lYQt9rx.gif',
-            'https://imgur.com/w1TU5mR.gif',
-            'https://i.imgur.com/i1PIph3.gif',
-            'https://i.imgur.com/WVSwvm6.gif',
-            'https://i.imgur.com/sZhtvBR.gif',
-            'https://i.imgur.com/15pKXEG.gif',
-            'https://i.imgur.com/So3TIVK.gif',
-            'https://i.imgur.com/q340AoA.gif',
-            'https://i.imgur.com/o9MMMeW.gif',
-            'https://i.imgur.com/OjTBV8G.gif',
-            'https://i.imgur.com/SeCRpPp.gif'
+            'https://i.imgur.com/r9aU2xv.gif',
+            'https://i.imgur.com/wOmoeF8.gif',
+            'https://i.imgur.com/nrdYNtL.gif',
+            'https://i.imgur.com/BPLqSJC.gif',
+            'https://i.imgur.com/ntqYLGl.gif',
+            'https://i.imgur.com/v47M1S4.gif',
+            'https://i.imgur.com/82xVqUg.gif',
+            'https://i.imgur.com/4oLIrwj.gif'
         ]
 
         const rand = list[Math.floor(Math.random() * list.length)]
