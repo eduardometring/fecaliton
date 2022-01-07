@@ -33,12 +33,11 @@ export default {
             })
         } else if(user == '710530907370684526') {
             const amogus = [
-                '! O Faustão vai botar esse seu cuzinho aí pra sentar na pika!',
                 '! Você sabe quantos anos eu tenho? O que você faria se eu fosse uma criança? Pedófilo de merda',
                 ', animal',
             ]
             const haha = amogus[Math.floor(Math.random() * amogus.length)]
-            await message.reply(`Eu não quero te beijar ${haha}`)
+            await message.reply(`Eu não quero te abraçar ${haha}`)
         }else {const description = [
             'O amor está no ar...',
             `Para um exemplo de imbecil, meus parabéns! ${message.author}, você acaba de contrair herpes! (laugh at this user <a:trollfast:854095574474948648>)`,
@@ -46,7 +45,7 @@ export default {
         ]
         const otario = description[Math.floor(Math.random() * description.length)]
         const kiss = new MessageEmbed()
-        .setDescription(`**${message.author} beijou ${user}** \n${otario}`)
+        .setDescription(`**${message.author} abraçou ${user}** \ntexto legal`)
         .setColor('RED')
         .setTimestamp()
         .setImage(rand)
