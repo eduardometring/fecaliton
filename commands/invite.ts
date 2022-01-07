@@ -8,7 +8,9 @@ export default {
     callback: async ({message}) => {
         const embed = new MessageEmbed()
         .setColor('#000080')
-        .setDescription('**teste👍**')
+        .setTitle('bruh')
+        .setURL('https://github.com/eduardometring')
+        .setDescription('**uepa!**\nratinho! **rapaz**\nvagina!')
 
         await message.reply({ 
             embeds: [embed]
