@@ -10,7 +10,7 @@ export default {
         .setColor('#000080')
         .setTitle('bruh')
         .setURL('https://github.com/eduardometring')
-        .setDescription('**uepa!**\nratinho! **rapaz**\nvagina!')
+        .setDescription('**uepa!**\nratinho! \n\n**rapaz**\nvagina!')
 
         await message.reply({ 
             embeds: [embed]
