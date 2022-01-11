@@ -45,7 +45,7 @@ export default {
         ]
         const otario = description[Math.floor(Math.random() * description.length)]
         const kiss = new MessageEmbed()
-        .setDescription(`**${message.author} abraçou ${user}** \ntexto legal`)
+        .setDescription(`**${message.author} abraçou ${user}** \n${otario}`)
         .setColor('BLUE')
         .setTimestamp()
         .setImage(rand)
