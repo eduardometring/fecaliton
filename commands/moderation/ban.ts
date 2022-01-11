@@ -6,7 +6,7 @@ export default {
     description: 'Banir membros do seu servidor',
     aliases: ['banir'],
 
-    permissions: ['KICK_MEMBERS'],
+    permissions: ['BAN_MEMBERS'],
 
     guildOnly: true,
 
