@@ -39,9 +39,9 @@ export default {
             const haha = amogus[Math.floor(Math.random() * amogus.length)]
             await message.reply(`Eu não quero te abraçar, `)
         }else {const description = [
-            'O amor está no ar...',
-            `Para um exemplo de imbecil, meus parabéns! ${message.author}, você acaba de contrair herpes! (laugh at this user <a:trollfast:854095574474948648>)`,
-            'Você sabia que a saliva tem mais bactérias que a urina? 😨'
+            'pena que ninguém liga',
+            `i shitted myself <a:trollfast:854095574474948648>`,
+            'WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP '
         ]
         const otario = description[Math.floor(Math.random() * description.length)]
         const kiss = new MessageEmbed()
