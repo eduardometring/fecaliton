@@ -44,7 +44,7 @@ export default {
             'WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP '
         ]
         const otario = description[Math.floor(Math.random() * description.length)]
-        const kiss = new MessageEmbed()
+        const hug = new MessageEmbed()
         .setDescription(`**${message.author} abraçou ${user}** \n${otario}`)
         .setColor('BLUE')
         .setTimestamp()
@@ -52,7 +52,7 @@ export default {
         .setFooter(message.author.tag, message.author.displayAvatarURL({format: "png"}))
 
         await message.reply ({
-            embeds: [kiss]
+            embeds: [hug]
         })
         
     }
