@@ -33,11 +33,11 @@ export default {
             })
         } else if(user == '710530907370684526') {
             const amogus = [
-                '! Você sabe quantos anos eu tenho? O que você faria se eu fosse uma criança? Pedófilo de merda',
-                ', animal',
+                'você fede!',
+                'animal',
             ]
             const haha = amogus[Math.floor(Math.random() * amogus.length)]
-            await message.reply(`Eu não quero te abraçar ${haha}`)
+            await message.reply(`Eu não quero te abraçar, `)
         }else {const description = [
             'O amor está no ar...',
             `Para um exemplo de imbecil, meus parabéns! ${message.author}, você acaba de contrair herpes! (laugh at this user <a:trollfast:854095574474948648>)`,
