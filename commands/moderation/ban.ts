@@ -20,7 +20,7 @@ export default {
         if (!target) {
             return 'Me diga quem você quer banir, porra!'
         } 
-        if (!target.kickable) {
+        if (!target.bannable) {
             return 'Eu não consigo banir esse filho de uma prostituta'
         }
 
