@@ -18,7 +18,7 @@ export default {
     callback: async ({message, interaction, args}) => {
         const target = message ? message.mentions.members?.first() : interaction.options.getMember('user') as GuildMember
         if (!target) {
-            return 'Me diga quem você quer expulsar, porra!'
+            return 'Me diga quem você quer banir, porra!'
         } 
         if (!target.kickable) {
             return 'Eu não consigo expulsar esse filho de uma prostituta'
