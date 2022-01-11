@@ -21,7 +21,7 @@ export default {
             return 'Me diga quem você quer banir, porra!'
         } 
         if (!target.kickable) {
-            return 'Eu não consigo expulsar esse filho de uma prostituta'
+            return 'Eu não consigo banir esse filho de uma prostituta'
         }
 
         args.shift()
