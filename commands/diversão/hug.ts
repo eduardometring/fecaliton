@@ -39,7 +39,7 @@ export default {
             const haha = amogus[Math.floor(Math.random() * amogus.length)]
             await message.reply(`Eu não quero te abraçar, `)
         }else {const description = [
-            'pena que ninguém liga',
+            'too bad nobody gives a shit',
             `i shitted myself <a:trollfast:854095574474948648>`,
             'WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP '
         ]
