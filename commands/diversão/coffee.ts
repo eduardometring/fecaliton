@@ -1,3 +1,4 @@
+import { MessageEmbed } from "discord.js";
 import { ICommand} from "wokcommands";
 
 export default {
@@ -6,6 +7,12 @@ export default {
     aliases: ['café', '☕'],
 
     callback: async ({message}) => {
-        await message.reply('KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK')
+        const embed = new MessageEmbed()
+        .setTitle('cafe')
+        .setDescription('cafe lmao')
+        .setColor('#2a1506')
+        await message.reply({
+            embeds: [embed]
+        })
     }
 }as ICommand
