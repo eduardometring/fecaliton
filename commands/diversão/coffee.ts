@@ -9,12 +9,14 @@ export default {
     callback: async ({message}) => {
         const list = [
             'https://i.imgur.com/bVXEwli.gif',
-            '',
-            '',
-            '',
-            ''
+            'https://i.imgur.com/zVFXlgN.gif',
+
         ]
         const coffee = list[Math.floor(Math.random() * list.length)]
+        const list2 = [
+            'Coffee! Coffee! Coffee! Coffee! Coffee! Coffee! Coffee! Coffee! Coffee!',
+            'Ebony Milf Shares Step Daughter With Boyfriend'
+        ]
         const embed = new MessageEmbed()
         .setTitle('cafe')
         .setDescription('cafe lmao')
