@@ -7,10 +7,19 @@ export default {
     aliases: ['café', '☕'],
 
     callback: async ({message}) => {
+        const list = [
+            'https://i.imgur.com/bVXEwli.gif',
+            '',
+            '',
+            '',
+            ''
+        ]
+        const coffee = list[Math.floor(Math.random() * list.length)]
         const embed = new MessageEmbed()
         .setTitle('cafe')
         .setDescription('cafe lmao')
         .setColor('#381c08')
+        .setImage(coffee)
         await message.reply({
             embeds: [embed]
         })
