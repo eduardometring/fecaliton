@@ -15,11 +15,13 @@ export default {
         const coffee = list[Math.floor(Math.random() * list.length)]
         const list2 = [
             'Coffee! Coffee! Coffee! Coffee! Coffee! Coffee! Coffee! Coffee! Coffee!',
-            'Ebony Milf Shares Step Daughter With Boyfriend'
+            'Ebony Milf Shares Step Daughter With Boyfriend',
+
         ]
+        const description = list2[Math.floor(Math.random() * list2.length)]
         const embed = new MessageEmbed()
         .setTitle('cafe')
-        .setDescription('cafe lmao')
+        .setDescription(description)
         .setColor('#381c08')
         .setImage(coffee)
         await message.reply({
