@@ -10,7 +10,7 @@ export default {
         const embed = new MessageEmbed()
         .setTitle('cafe')
         .setDescription('cafe lmao')
-        .setColor('#2a1506')
+        .setColor('#381c08')
         await message.reply({
             embeds: [embed]
         })
