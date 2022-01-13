@@ -25,7 +25,7 @@ export default {
         .setColor('#381c08')
         .setImage(coffee)
         await message.reply({
-            embeds: [embed] //sex
+            embeds: [embed] 
         })
     }
 }as ICommand
