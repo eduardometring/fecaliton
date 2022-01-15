@@ -10,6 +10,7 @@ export default {
         const list = [
             'https://i.imgur.com/bVXEwli.gif',
             'https://i.imgur.com/zVFXlgN.gif',
+            
 
         ]
         const coffee = list[Math.floor(Math.random() * list.length)]
@@ -44,7 +45,7 @@ export default {
         ]
         const description = list2[Math.floor(Math.random() * list2.length)]
         const embed = new MessageEmbed()
-        .setTitle('cafe')
+        .setTitle('Coffee👍')
         .setDescription(description)
         .setColor('#381c08')
         .setImage(coffee)
