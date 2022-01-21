@@ -23,7 +23,7 @@ client.on('ready', () => {
 })
 
 client.on('messageCreate', (message) => {
-    if(message.content === 'merda') {
+    if(message.content === 'QUE ISSO') {
         message.reply({
             content: 'https://desvendandosonhos.com/wp-content/uploads/2018/10/Sonhar-Com-Fezes.jpg',
         })
